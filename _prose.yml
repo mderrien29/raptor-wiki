@@ -1,10 +1,12 @@
 prose:
-  rooturl: 'wiki'
   siteurl: 'https://mderrien29.github.io/raptor-wiki'
   media: 'assets'
   ignore:
     - .gitignore
-    - _README.md
     - _config.yml
     - _prose.yml
-    - /_includes
+    - _includes
+    - docker-compose.yml
+    - .env-files
+    - .gitignore
+    - .gitlab-ci.yml
